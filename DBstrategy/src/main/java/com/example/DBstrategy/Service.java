@@ -40,28 +40,4 @@ public class Service {
         }
         else return "enter \"jdbc\" or \"jpa\"";
     }
-
-//    @Autowired
-//    JDBCStrategy jdbcService;
-//
-//    @Autowired
-//    JPAStrategy jpaService;
-
-//    public String runJDBC() {
-//            jdbcService.insert();
-//            return jdbcService.select();
-//    }
-//
-//    public String runJPA() {
-//            jpaService.insert();
-//            return jpaService.select();
-//    }
-//
-//    public void insertByJDBC(String json) {
-//        jdbcService.insert(json);
-//    }
-//
-//    public void insertByJPA(String json) {
-//        jpaService.insert(json);
-//    }
 }
